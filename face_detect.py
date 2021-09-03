@@ -2,7 +2,7 @@ import numpy as np
 import cv2
 import time
 
-faceCascade = cv2.CascadeClassifier('Cascades/haarcascade_frontalface_default.xml')
+faceCascade = cv2.CascadeClassifier('cascades/haarcascade_frontalface_default.xml')
 
 cap = cv2.VideoCapture(0)
 width=1280
